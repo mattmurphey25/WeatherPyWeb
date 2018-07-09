@@ -1,0 +1,78 @@
+.box {
+    box-sizing: border-box;
+    color: #14aa96;
+    background: #fff;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.background {
+    background: #f1f1f1;
+}
+
+.text {
+    color: black;
+    line-height: 2;
+    font-size: 14pt;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+table {
+    color: black;
+    border: none;
+    padding: 20px;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 40px;
+}
+
+#latitude-brand {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #14aa96;
+    color: white;
+    font-size: 20px;
+}
+
+.container-fluid-1 {
+    margin: 40px;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 480px;
+    width: 620px;
+}
+
+@media (max-width: 480px) {
+    
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
