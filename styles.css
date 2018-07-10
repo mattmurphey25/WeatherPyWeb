@@ -46,6 +46,11 @@ h2 {
     margin-bottom: 40px;
 }
 
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20pt;
+}
+
 #latitude-brand {
     font-family: "Times New Roman", Times, serif;
     background-color: #14aa96;
@@ -71,5 +76,11 @@ h2 {
     container {
         margin-left: 0px;
         margin-right: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-header {
+        background-color: #14aa96;
     }
 }
